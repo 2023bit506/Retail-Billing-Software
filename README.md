@@ -66,7 +66,6 @@ Designed for **Shops, Retail Stores, Supermarkets, and Billing Counters**.
 - pdfkit  
 - nodemailer  
 
----
 Retail-Billing-Software/
 │
 ├── backend/
