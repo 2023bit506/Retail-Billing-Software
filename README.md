@@ -1,140 +1,118 @@
-🛒 Retail Billing Software
+# 🛒 Retail Billing Software  
+### A Modern, Full-Stack POS & Inventory Management System
 
-A modern, full-stack billing and inventory management system built for retail stores.
-Includes admin dashboard, cashier billing panel, product management, analytics, reports, and more.
+A feature-rich retail billing system with admin dashboard, cashier billing panel, stock management, analytics, PDF invoice generation, and more.  
+Designed for **Shops, Retail Stores, Supermarkets, and Billing Counters**.
 
-🚀 Features
-🔐 Authentication
+---
 
-Admin & Cashier login system
+## 🚀 Features
 
-JWT-based secure authentication
+### 🔐 Authentication  
+- Admin & Cashier Login  
+- JWT-secure authentication  
+- Role-based access  
+- Auto session restore  
 
-Role-based access (Admin / User)
+### 🧾 Billing System  
+- Add items with quantity  
+- Automatic subtotal + GST + Total  
+- Auto stock reduce on sale  
+- PDF invoice generation  
+- Share bill via **Email / WhatsApp**  
+- Clean UI for fast billing  
 
-🧾 Billing System
+### 📦 Product Management  
+- Add / Edit / Delete products  
+- Automatic stock updates  
+- Low stock warning  
+- Product search  
 
-Add products to cart with quantity
+### 🧑‍🤝‍🧑 User Management  
+- Add admin/cashier  
+- Secure password hashing (bcrypt)  
+- Activate/Deactivate users  
 
-Auto-calculated totals, GST, subtotal
+### 📊 Reports & Analytics  
+- Monthly revenue & sales chart  
+- Counter-wise performance  
+- Date-range filtering  
+- Export reports (CSV/PDF)  
 
-PDF invoice generation
+### ⚙️ Settings  
+- Business details  
+- GST Configuration  
+- Discount Settings  
+- Notifications  
 
-Send bill via Email / WhatsApp
+---
 
-Auto-updates product stock after billing
+## 🖥️ Tech Stack
 
-📦 Product Management
+### **Frontend**
+- React + TypeScript  
+- TailwindCSS  
+- ShadCN UI  
+- Recharts  
+- Context API  
+- Lucide Icons  
 
-Add / edit / delete products
+### **Backend**
+- Node.js  
+- Express  
+- MongoDB + Mongoose  
+- bcryptjs  
+- jsonwebtoken  
+- pdfkit  
+- nodemailer  
 
-Real-time stock validation
-
-Low-stock indicators
-
-🧑‍🤝‍🧑 User Management
-
-Add new admin or cashier
-
-View all users
-
-Update / delete users
-
-📊 Reports & Analytics
-
-Monthly revenue & sales chart
-
-Counter-wise performance
-
-Export reports
-
-Dynamic date-range filtering
-
-⚙️ Settings
-
-Store details (name, address, email)
-
-GST configuration
-
-Discount configuration
-
-Notification preferences
-
-🖥️ Tech Stack
-Frontend
-
-React + TypeScript
-
-TailwindCSS
-
-ShadCN UI
-
-Recharts
-
-Lucide Icons
-
-Context API (Cart & Auth)
-
-Backend
-
-Node.js
-
-Express
-
-MongoDB + Mongoose
-
-bcryptjs
-
-jsonwebtoken
-
-pdfkit
-
-nodemailer
-
-📂 Project Structure
+---
 Retail-Billing-Software/
 │
 ├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   ├── index.js
-│   └── .env
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── config/
+│ ├── index.js
+│ └── .env
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── api/
-│   │   └── utils/
-│   └── public/
+│ ├── src/
+│ │ ├── pages/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── api/
+│ │ └── utils/
+│ └── public/
 │
 └── README.md
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository  
 git clone https://github.com/<your-username>/Retail-Billing-Software.git
 cd Retail-Billing-Software
 
-📦 Backend Setup
-Install dependencies:
+🔧 Backend Setup
 cd backend
 npm install
 
-Create .env file:
+Create .env file
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 PORT=5000
-EMAIL_USER=your-email
-EMAIL_PASS=your-email-password
 
-Start backend:
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
+
+Run Backend
 npm start
 
 
-OR
+or
 
 nodemon index.js
 
@@ -144,18 +122,18 @@ npm install
 npm run dev
 
 🧪 Demo Credentials
-Admin Login
+Admin
 Email: admin@gmail.com
 Password: admin123
 
-Cashier Login
+Cashier
 Email: user@gmail.com
 Password: user123
 
-🧾 Invoice Sample Output
+🧾 Sample Invoice (PDF)
 Bill ID: 6929ee4da2d9e43ba232e4db
 Customer: John Doe
-Date: 29/11/2025, 12:17:41 AM
+Date: 29/11/2025, 12:17 AM
 
 Items:
 - Pen × 3 = ₹45
@@ -163,35 +141,35 @@ Items:
 
 Total Amount: ₹165
 
-📊 Dashboard Preview
+📊 Dashboard Features
 
-Modern UI with charts
+Live charts
 
-Bill overview
+Monthly business insights
 
-Low-stock alerts
+Low stock alerts
 
-Performance tracking
+Sales summary
 
 🛡️ Security
 
-Encrypted passwords (bcrypt)
+Password hashing (bcrypt)
 
-Token-based login (JWT)
+JWT authentication
 
 Protected admin routes
-
-API input validation
 
 🤝 Contributing
 
 Pull requests are welcome!
-For major changes, please open an issue first to discuss what you would like to change.
+For major updates, open an issue to discuss changes.
 
 📄 License
 
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
-⭐ Show Support
+⭐ Support
 
-If you like this project, please ⭐ the repository!
+If you like this project, please star ⭐ the repository!
+
+---
