@@ -65,7 +65,7 @@ Designed for **Shops, Retail Stores, Supermarkets, and Billing Counters**.
 - jsonwebtoken  
 - pdfkit  
 - nodemailer  
-
+---
 Retail-Billing-Software/
 │
 ├── backend/
